@@ -5,7 +5,7 @@ public class Pedido {
 	private List<Bebida> itens;
 
 	public Pedido() {
-		
+		this.itens = new ArrayList<>();
 	}
 
 	public int adicionar(Bebida item) {

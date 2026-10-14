@@ -5,7 +5,10 @@ public class Vitamina extends Bebida {
 
 
 	public Vitamina(EFruta fruta) {
-		
+		super("Vitamina");
+			if (fruta != null) {
+			this.frutas.add(fruta);
+		}
 	}
 
 	@Override 

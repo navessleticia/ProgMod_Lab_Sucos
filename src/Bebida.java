@@ -6,7 +6,8 @@ public abstract class Bebida {
 	protected List<EFruta> frutas;
 
 	public Bebida(String descricao) {
-		
+		this.descricao = descricao;
+		this.frutas = new ArrayList<>(3);
 	}
 
 	public abstract int adicionar(EFruta fruta);

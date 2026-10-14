@@ -9,7 +9,7 @@ public enum EFruta {
 	private double valor;
 	
 	EFruta(double preco){
-
+		this.valor = preco;
 	}
 
 	public double valor(){
